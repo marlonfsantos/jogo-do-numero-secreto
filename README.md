@@ -92,21 +92,6 @@ O projeto foi desenvolvido para aplicar e consolidar conhecimentos em:
    - Ou abra através do seu navegador preferido
    - Ou use um servidor local (recomendado)
 
-### Usando um Servidor Local (Recomendado)
-
-```bash
-# Com Python 3
-python -m http.server 8000
-
-# Com Node.js (npx)
-npx serve .
-
-# Com PHP
-php -S localhost:8000
-```
-
-Depois acesse: `http://localhost:8000`
-
 ## 📁 Estrutura do Projeto
 
 ```
@@ -160,8 +145,8 @@ Este projeto foi criado como parte do aprendizado em desenvolvimento web, demons
 
 ### 📞 Contato
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/marlonfsantos)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/marlonfsantos)
 
 ---
 
