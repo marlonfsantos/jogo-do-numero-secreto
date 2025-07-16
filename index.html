@@ -17,12 +17,28 @@
 
     <div class="container">
         <div class="container__conteudo">
-            <div class="container__informacoes">
+            <!-- Seção de configuração inicial -->
+            <div id="configuracao-inicial" class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Configure seu <span class="container__texto-azul">jogo</span></h1>
+                    <p class="texto__paragrafo">Digite seu nome e escolha o número máximo</p>
+                </div>
+                <div class="container__inputs-config">
+                    <input type="text" id="nome-jogador" placeholder="Digite seu nome" class="container__input">
+                    <input type="number" id="numero-maximo" min="5" max="100" value="10" placeholder="Número máximo" class="container__input">
+                </div>
+                <div class="chute container__botoes">
+                    <button onclick="iniciarJogo()" class="container__botao">Iniciar Jogo</button>
+                </div>
+            </div>
+
+            <!-- Seção do jogo (inicialmente oculta) -->
+            <div id="jogo" class="container__informacoes oculto">
                 <div class="container__texto">
                     <h1>Adivinhe o <span class="container__texto-azul">numero secreto</span></h1>
-                    <p class="texto__paragrafo">Escolha um número entre 1 a 10</p>
+                    <p id="mensagem-jogo" class="texto__paragrafo"></p>
                 </div>
-                <input type="number" min="1" max="10" class="container__input">
+                <input type="number" id="chute-input" min="1" class="container__input">
                 <div class="chute container__botoes">
                     <button onclick="verificarChute()" class="container__botao">Chutar</button>
                     <button onclick="reiniciarJogo()" id="reiniciar" class="container__botao" disabled>Novo jogo</button>
@@ -31,9 +47,6 @@
             <img src="./img/ia.png" alt="Uma pessoa olhando para a esquerda" class="container__imagem-pessoa" />
         </div>
     </div>
-
-
-
 
     <script src="app.js" defer></script>
 </body>
