@@ -1,0 +1,19 @@
+{
+  "dificuldades": {
+    "facil": {
+      "nome": "Fácil",
+      "numeroMaximo": 10,
+      "descricao": "Números de 1 a 10"
+    },
+    "medio": {
+      "nome": "Médio", 
+      "numeroMaximo": 30,
+      "descricao": "Números de 1 a 30"
+    },
+    "dificil": {
+      "nome": "Difícil",
+      "numeroMaximo": 50,
+      "descricao": "Números de 1 a 50"
+    }
+  }
+} 
